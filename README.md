@@ -107,6 +107,7 @@ docker push denish952/voting-app-worker:v1
 ```
 
 📁 Project Layout
+```
 docker-voting-app/
 ├── vote/
 │   ├── app.py
@@ -167,6 +168,7 @@ How to manage state using Redis and PostgreSQL
 How background jobs work
 How to structure a project that can easily fit into CI/CD pipelines
 
+```
 🐛 Troubleshooting
 
 Docker Compose

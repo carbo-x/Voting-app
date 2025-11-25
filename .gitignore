@@ -68,4 +68,4 @@ docker-compose.override.yml
 *.swp
 *.bak
 *.tmp
-
+*.:Zone.Identifier

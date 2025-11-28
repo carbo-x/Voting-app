@@ -1,4 +1,4 @@
- Working Install Method for Docker Compose v2 (for Amazon Linux 2023)
+## Working Install Method for Docker Compose v2 (for Amazon Linux 2023)
 
 Run these steps:
 

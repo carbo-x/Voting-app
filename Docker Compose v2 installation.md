@@ -6,16 +6,16 @@ Run these steps:
 ```
 sudo mkdir -p /usr/local/lib/docker/cli-plugins
 ```
-3. Download docker compose v2
+2. Download docker compose v2
 ```
 sudo curl -SL https://github.com/docker/compose/releases/download/v2.29.7/docker-compose-linux-x86_64 \
   -o /usr/local/lib/docker/cli-plugins/docker-compose
 ```
-4. Make it executable
+3. Make it executable
 ```
 sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 ```
-6. Verify
+4. Verify
 ```
 docker compose version
 ```

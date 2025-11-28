@@ -121,7 +121,7 @@ docker-voting-app/
 │   ├── worker.py
 │   ├── requirements.txt
 │   └── Dockerfile
-├── k8s-manifests/
+├── k8s-yaml/
 │   ├── vote-deployment.yaml
 │   ├── result-deployment.yaml
 │   ├── worker-deployment.yaml

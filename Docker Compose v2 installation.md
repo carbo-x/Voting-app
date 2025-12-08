@@ -1,4 +1,4 @@
-## Working Install Method for Docker Compose v2 (for Amazon Linux 2023)
+##  Docker Compose v2 (for Amazon Linux 2023)
 
 Run these steps:
 
@@ -24,9 +24,19 @@ If you see a version output.
 ```
 Docker Compose version v2.29.7
 ```
- you’re good
  
 start build:
 ```
 docker compose up --build -d
+```
+Buildx
+```
+sudo mkdir -p /usr/libexec/docker/cli-plugins/
+```
+```
+sudo curl -SL https://github.com/docker/buildx/releases/download/v0.29.1/buildx-v0.29.1.linux-amd64 \
+  -o /usr/libexec/docker/cli-plugins/docker-buildx
+```
+```
+sudo chmod +x /usr/libexec/docker/cli-plugins/docker-buildx
 ```

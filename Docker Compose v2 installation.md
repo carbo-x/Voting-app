@@ -40,3 +40,6 @@ sudo curl -SL https://github.com/docker/buildx/releases/download/v0.29.1/buildx-
 ```
 sudo chmod +x /usr/libexec/docker/cli-plugins/docker-buildx
 ```
+```
+docker buildx version
+```
